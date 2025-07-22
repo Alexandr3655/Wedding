@@ -1,95 +1,106 @@
-/*Обнуление CSS (HTML5 Doctor CSS Reset)*/
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
- margin:0;
- padding:0;
- border:0;
- outline:0;
- font-size:100%;
- vertical-align:baseline;
- background:transparent;
+
+/*Вставка нового шрифта "Lastochka"*/
+@font-face { 
+	font-family: "Lastochka";
+	src: url("fonts/Lastochka.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-display:swap;
+   }
+
+/*Lastochka*/
+
+.Lastochka {
+	font-family: "Lastochka", "TimesNewRoman";
 }
 
-body {
- line-height:1;
+/*Вставка нового шрифта "PlayfairDisplay normal"*/
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: url("fonts/PlayfairDisplay.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-display:swap; 
+   }
+
+/*PlayfairDisplay normal*/
+
+.PlayfairDisplay {
+	font-family: "PlayfairDisplay", "TimesNewRoman";
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
- display:block;
+
+.container-fluid {
+	width: 100vw;
+	height: 100vw;
+	background: url('../img/header.jpg') no-repeat center;
+	background-size: cover;
 }
 
-nav ul {
- list-style:none;
+.display-1 {
+	font-size: calc(1.625rem + 8.5vw) !important;
+    line-height: 0.8 !important;
+	color: #fff;
+	margin-bottom: 0.3rem !important;
+	opacity: 0.9;
 }
 
-blockquote, q {
- quotes:none;
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
- content:'';
- content:none;
+.wrapper {
+	padding-bottom: 5%;
+
 }
 
-a {
- margin:0;
- padding:0;
- font-size:100%;
- vertical-align:baseline;
- background:transparent;
- text-decoration: none;
+.h4 {
+	font-size: calc(1.625rem + 1.5vw) !important;
+    line-height: 0.8 !important;
+	color: #fff !important;
+	opacity: 0.9;
+	font-style: italic;	
 }
 
-ins {
-	background-color:#ff9;
-	color:#000;
-	text-decoration:none;
+.love {
+	padding-bottom: 5%;
 }
 
-mark {
-	background-color:#ff9;
- color:#000;
- font-style:italic;
- font-weight:bold;
+.data {
+	font-size: calc(1.625rem + 1.5vw) !important;
 }
 
-del {
- text-decoration: line-through;
+.section-1{
+	margin: 2% 2%;
 }
 
-abbr[title], dfn[title] {
- border-bottom:1px dotted;
- cursor:help;
+.container {
+	margin: 0 !important;
 }
 
-table {
- border-collapse:collapse;
- border-spacing:0;
+.guest {
+	font-size: calc(1.625rem + 5.0vw) !important;
+    line-height: 0.8 !important;
+	color: #000 !important;
+	font-style: italic;
+	margin-bottom: 4%;
 }
 
-hr {
- display:block;
- height:1px;
- border:0;  
- border-top:1px solid #cccccc;
- margin:1em 0;
- padding:0;
+.massage {
+	font-size: calc(0rem + 2vw) !important;
+    line-height: 0.8 ;
+	color: #000 ;
+	
+
 }
 
-input, select {
- vertical-align:middle;
- outline: 0;
-	outline-offset: 0; 
+.text-guest {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 }
