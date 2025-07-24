@@ -74,7 +74,7 @@
 }
 
 .section-1{
-	margin: 2% 2%;
+	padding: 3% 3%;
 }
 
 .container {
@@ -93,8 +93,6 @@
 	font-size: calc(0rem + 2vw) !important;
     line-height: 0.8 ;
 	color: #000 ;
-	
-
 }
 
 .text-guest {
@@ -103,4 +101,32 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+}
+
+
+
+.h1-section2 {
+	min-width: 100%;
+	font-size: calc(1.625rem + 4.0vw) !important;
+    line-height: 0.8 !important;
+	color: #000 !important;
+	margin-bottom: 0.3rem !important;
+	opacity: 1;
+	font-style: italic;
+	text-align: center;
+}
+
+.firstcontainer {
+	width: 8% !important;
+	margin-top: 7% !important;
+	padding-bottom: 1% !important;
+}
+
+.secondcontainer {
+	width: 6% !important;
+	padding-bottom: 0.5% !important;
+}
+
+.thirdcontainer {
+	width: 8% !important;
 }
