@@ -150,3 +150,34 @@ th {
 	vertical-align: middle;
 }
 
+.color-wedding {
+	font-size: calc(0.5rem + 2vw) !important;
+    line-height: 1.4;
+    color: #000;
+	text-align: center;
+	margin: 0 !important;
+	padding-top: 3%;
+	font-style: italic;
+	padding-bottom: 3%;
+}
+
+.col {
+	padding-bottom: 5%;
+}
+
+.white {
+	background: #fff no-repeat center;
+	border:1px solid #000;
+}
+
+.beige {
+	background: #efa864 no-repeat center;
+}
+
+.green {
+	background: #47a25a no-repeat center;
+}
+
+.brown {
+	background: #995300 no-repeat center;
+}
