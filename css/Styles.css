@@ -121,6 +121,10 @@
 	margin-bottom: 0 !important;
 }
 
+.table>:not(caption)>*>* {
+    padding: 0 !important;
+}
+
 tbody, td, tfoot, th, thead, tr {
     border: none !important;
 }
@@ -180,4 +184,32 @@ th {
 
 .brown {
 	background: #995300 no-repeat center;
+}
+
+.color-box {
+	margin: 0 3% !important;
+	justify-content: space-between !important;
+	flex-wrap: nowrap !important;
+}
+
+.color-box1 {
+	padding: 0 !important;
+}
+
+.flex {
+	width: 20% !important;
+	flex: none !important;
+}
+
+.dress-code {
+	padding-bottom: 10%;
+}
+
+.carousel-img {
+	padding-bottom: 3%;
+}
+
+.button-maps {
+	text-align: center;
+	
 }
