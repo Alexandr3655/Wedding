@@ -29,16 +29,15 @@
 	font-family: "PlayfairDisplay", "TimesNewRoman";
 }
 
-
 .container-fluid {
 	width: 100vw;
-	height: 100vw;
+	height: auto;
 	background: url('../img/header-min.jpg') no-repeat center;
 	background-size: cover;
 }
 
 .display-1 {
-	font-size: calc(1.625rem + 8.5vw) !important;
+	font-size: calc(1.625rem + 13.0vw) !important;
     line-height: 0.8 !important;
 	color: #fff;
 	margin-bottom: 0.3rem !important;
@@ -53,6 +52,7 @@
 }
 
 .wrapper {
+	padding-top: 30%;
 	padding-bottom: 5%;
 
 }
@@ -66,11 +66,14 @@
 }
 
 .love {
+	padding-top: 20%;
 	padding-bottom: 5%;
 }
 
 .data {
-	font-size: calc(1.625rem + 1.5vw) !important;
+	font-size: calc(1.625rem + 4.5vw) !important;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .main {
@@ -79,11 +82,16 @@
 }
 
 .section-1{
-	padding: 3% 3%;
+	padding: 5% 3%;
 }
 
 .container {
 	margin: 0 !important;
+}
+
+.circle-guest {
+	width: 100% !important;
+	height: 93% !important;
 }
 
 .guest {
@@ -94,10 +102,15 @@
 	margin-bottom: 4%;
 }
 
+.circle-col {
+	padding-bottom: 0 !important;
+}
+
 .massage {
-	font-size: calc(0rem + 2vw) !important;
+	font-size: calc(0rem + 3.5vw) !important;
     line-height: 0.8 ;
 	color: #000 ;
+	text-align: center;
 }
 
 .text-guest {
@@ -106,6 +119,7 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+	padding-bottom: 0 !important;
 }
 
 .h1-section2 {
@@ -117,6 +131,9 @@
 	opacity: 1;
 	font-style: italic;
 	text-align: center;
+	padding-bottom: 3%;
+	padding-top: 1%;
+	border-top: 2px solid #f893ff7d;
 }
 
 .table {
@@ -168,7 +185,17 @@ th {
 	margin: 0 !important;
 	padding-top: 3%;
 	font-style: italic;
-	padding-bottom: 3%;
+	padding: 0 !important;
+	padding-bottom: 3% !important;
+}
+
+.color-wedding-line {
+	padding-top: 1%;
+	border-top: 2px solid #f893ff7d;
+}
+
+.position-wedding-text {
+	margin: 0 !important;
 }
 
 .col {
@@ -259,4 +286,12 @@ th {
 
 .welcome-1 {
 	padding: 0 !important;
+}
+
+.footer {
+	background: #f893ff7d no-repeat center;
+}
+
+.btn-come {
+	margin-bottom: 0 !important;
 }
