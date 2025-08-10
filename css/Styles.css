@@ -52,7 +52,7 @@
 }
 
 .wrapper {
-	padding-top: 30%;
+	padding-top: 75%;
 	padding-bottom: 5%;
 
 }
@@ -133,7 +133,7 @@
 	text-align: center;
 	padding-bottom: 3%;
 	padding-top: 1%;
-	border-top: 2px solid #f893ff7d;
+	border-top: 2px solid #f7d4f97d;
 }
 
 .table {
@@ -191,7 +191,7 @@ th {
 
 .color-wedding-line {
 	padding-top: 1%;
-	border-top: 2px solid #f893ff7d;
+	border-top: 2px solid #f7d4f97d;
 }
 
 .position-wedding-text {
@@ -289,9 +289,15 @@ th {
 }
 
 .footer {
-	background: #f893ff7d no-repeat center;
+	background: #f7d4f97d no-repeat center;
 }
 
 .btn-come {
 	margin-bottom: 0 !important;
+}
+
+.tr-table {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
