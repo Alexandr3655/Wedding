@@ -137,7 +137,7 @@
 }
 
 .table {
-	width: 50% !important;
+	width: 40% !important;
 	margin: 0 auto;
 	margin-top: 5%;
 	margin-bottom: 0 !important;
@@ -165,7 +165,8 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 th {
-	width: 20% !important;
+	width: 5% !important;
+	height: 5% !important;
 }
 
 .position-wedding {
@@ -294,10 +295,4 @@ th {
 
 .btn-come {
 	margin-bottom: 0 !important;
-}
-
-.tr-table {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 }
