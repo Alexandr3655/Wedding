@@ -133,7 +133,7 @@
 	text-align: center;
 	padding-bottom: 3%;
 	padding-top: 1%;
-	border-top: 2px solid #f7d4f97d;
+	border-top: 3px solid #ebddf17d;
 }
 
 .table {
@@ -187,7 +187,7 @@ tbody, td, tfoot, th, thead, tr {
 
 .color-wedding-line {
 	padding-top: 1%;
-	border-top: 2px solid #f7d4f97d;
+	border-top: 2px solid #ebddf17d;
 }
 
 .position-wedding-text {
@@ -250,7 +250,7 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 .footer {
-	background: #f7d4f97d no-repeat center;
+	background:  #ebddf17d no-repeat center;
 }
 
 .btn-come {
