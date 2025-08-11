@@ -145,7 +145,7 @@
 }
 
 .table>:not(caption)>*>* {
-    padding: 0 5% !important
+    padding: 0 !important
 }
 
 tbody, td, tfoot, th, thead, tr {
@@ -197,46 +197,11 @@ th {
 
 .position-wedding-text {
 	margin: 0 !important;
+	padding-left: 10%;
 }
 
 .col {
 	padding-bottom: 5%;
-}
-
-.white {
-	background: #fff no-repeat center;
-	border:1px solid #000;
-}
-
-.beige {
-	background: #efa864 no-repeat center;
-}
-
-.green {
-	background: #47a25a no-repeat center;
-}
-
-.brown {
-	background: #995300 no-repeat center;
-}
-
-.color-box {
-	margin: 0 3% !important;
-	justify-content: space-between !important;
-	flex-wrap: nowrap !important;
-}
-
-.color-box1 {
-	padding: 0 !important;
-}
-
-.flex {
-	width: 20% !important;
-	flex: none !important;
-}
-
-.dress-code {
-	padding-bottom: 10%;
 }
 
 .carousel-img {
