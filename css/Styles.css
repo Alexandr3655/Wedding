@@ -145,7 +145,7 @@
 }
 
 .table>:not(caption)>*>* {
-    padding: 0 !important;
+    padding: 0 5% !important
 }
 
 tbody, td, tfoot, th, thead, tr {
@@ -153,15 +153,15 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 .table-img1 {
-	width: 10vw !important;
+	width: 100% !important;
 }
 
 .table-img2 {
-	width: 8vw !important;
+	width: 100% !important;
 }
 
 .table-img3 {
-	width: 10vw !important;
+	width: 100% !important;
 }
 
 th {
