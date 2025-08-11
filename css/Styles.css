@@ -164,11 +164,6 @@ tbody, td, tfoot, th, thead, tr {
 	width: 100% !important;
 }
 
-th {
-	width: 5% !important;
-	height: 5% !important;
-}
-
 .position-wedding {
 	width: 0% !important;
 	font-size: calc( 0rem + 4.0vw) !important;
